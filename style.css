@@ -1,0 +1,49 @@
+.travelbg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 0%;
+    animation: popup 4s normal ease-in-out;
+    -webkit-animation: popup 4s normal ease-in-out;
+}
+
+
+@keyframes popup {
+    from { opacity: 0%; }
+    to { opacity: 100%; }
+}
+
+#panel {
+    position: absolute ;
+    opacity: 90%;
+    border-radius: 0px 0px 5% 5%;
+    background-color: aliceblue;
+    width: 60%;
+    height: 90%;
+    left: 20%;
+    visibility: hidden;
+    animation: mainpopup 2ms 2ms normal forwards;
+}
+
+#loginbutton {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    right: 0%;
+    top: 0%;
+    background-color: rgb(121, 152, 219);
+    border-radius: 0px 0px 0px 5px;
+    cursor: pointer;
+}
+
+@keyframes mainpopup {
+    from { top: -90%; opacity: 0%; visibility: visible;}
+    to { top: 0%; opacity: 90%; visibility: visible;}
+}
+
+.loginicon {
+    position: relative;
+    width: 50%;
+    height: auto;
+}

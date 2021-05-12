@@ -23,7 +23,7 @@
     height: 90%;
     left: 20%;
     visibility: hidden;
-    animation: mainpopup 2ms 2ms normal forwards;
+    animation: mainpopup 2s 2s normal forwards;
 }
 
 #loginbutton {

@@ -103,6 +103,7 @@
     background-color: white;
     opacity: 0%;
     left: 10%;
+    top: 60%;
     border-radius: 0% 10% 10% 0%;
     border-style: solid;
     border-left-style: dotted;
@@ -110,3 +111,8 @@
     border-width: 3%;
 }
 
+#websitename {
+    position: absolute;
+    font-size: 50px;
+    left: 30%;
+}
